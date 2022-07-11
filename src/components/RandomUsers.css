@@ -1,0 +1,32 @@
+
+input {
+  margin-left: 0.5em;
+}
+
+table tr:nth-child(odd):not(:first-child) {
+  background-color: hsl(30, 90%, 60%);
+}
+table tr:nth-child(even) {
+  background-color: hsl(30, 90%, 80%);
+}
+
+table tr > td {
+  padding: 0.5em;
+}
+
+table {
+  border-spacing: 0;
+  border: 1px solid black;
+  margin-top: 8px;
+  width: 400px
+}
+
+
+table th,td {
+    margin: 0;
+    padding: 0.5rem;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    text-align: center;
+}
+
